@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiago Assis</title>
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap" rel="stylesheet">
+<script>
+    function copyToClipBoard() {
+
+var content = document.getElementById('text');
+
+content.select();
+document.execCommand('copy');
+
+console.log('texto copiado')
+alert("Email Copiado")
+    }
+</script>
+</head>
+<body>
+<div id="container">
+    <header>
+        <article>
+            <img src="./84b529b4-78b1-abb3-b918-6cd6aa4f0f56.png">
+        </article>
+        <div id="tiago">
+            <h1>Tiago Assis<br/>
+            @Tiagofelipefe</h1>
+        </div>
+    </header>
+    <main>
+        <ul>
+            <a href="https://www.linkedin.com/in/tiago-felipe-ferreira-de-assis/" target="_blank" rel="noopener noreferrer" class="linka"><button class="aa"><div id="botoes">Linkedin</div></button></a>
+            <a class="linka" href="https://github.com/llKirallkx" target="_blank" rel="noopener noreferrer"><button class="aa"><div id="botoes">GitHub</div></button></a>
+            <a class="linka" ><button class="aa" onclick="copyToClipBoard()"><div id="botoes">Copiar Email<textarea class="email" id="text">Tiagofelipefe@gmail.com</textarea></div></button></a>
+        </ul>
+
+
+    </main>
+</div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+*{
+    font-family: 'Comfortaa', cursive;
+}
+
+body{
+    background-color: black;
+    background:rgba(0, 0, 0, 0.842) url(./5DwWEbmzTTazhIdIJFzR_ggg\ \(1\).jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: top;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+header{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tiago{
+    display: flex;
+    justify-content: center;
+    max-width: min-content;
+    background: none;
+    color: white;
+}
+article{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+img{
+   width: 20vh;
+   justify-content: center;
+}
+h1{
+    text-align: center;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+h2{
+    margin: 0;
+    text-align: center;
+}
+.aa{
+    background-color: rgba(10, 9, 9, 0.521);
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    margin: 8px;
+    padding: 2vh;
+    border-color: rgba(255, 255, 255, 0.918);
+    width: 100%;
+}
+
+.aa:hover{
+    background-color: rgba(255, 255, 255, 0.863);
+    color: rgb(15, 9, 20);
+    transition: 0.5s;
+    font-size: large;
+    cursor: pointer;
+}
+
+#botoes{
+    max-height: min-content;
+    padding: 10px;
+}
+.email{
+    display: none;
+}
