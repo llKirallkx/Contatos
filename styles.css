@@ -1,13 +1,13 @@
 *{
     font-family: 'Comfortaa', cursive;
+
 }
 
 body{
     background-color: black;
-    background:rgba(0, 0, 0, 0.842) url(./5DwWEbmzTTazhIdIJFzR_ggg\ \(1\).jpg);
+    background:rgba(0, 0, 0, 0.829) url(./5DwWEbmzTTazhIdIJFzR_ggg\ \(1\).jpg);
     background-blend-mode: darken;
     background-size: cover;
-    background-blend-mode: darken;
     background-position: top;
     max-width: 800px;
     display: flex;
@@ -50,13 +50,14 @@ img{
 h1{
     text-align: center;
 }
-ul{
+.lista{
     display: flex;
     flex-direction: column;
     padding: 0px;
+    margin: 0px;
 }
+
 h2{
-    margin: 0;
     text-align: center;
 }
 .aa{
@@ -67,7 +68,7 @@ h2{
     margin: 8px;
     padding: 2vh;
     border-color: rgba(255, 255, 255, 0.918);
-    width: 100%;
+    
 }
 
 .aa:hover{
@@ -79,9 +80,13 @@ h2{
 }
 
 #botoes{
-    max-height: min-content;
     padding: 10px;
 }
 .email{
     display: none;
+}
+.linka{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
 }
